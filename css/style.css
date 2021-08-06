@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#profile {
+  width: 100%;
+  height: 100vh;
+  margin: 0px auto; }
+  #profile::after {
+    content: "";
+    display: block;
+    clear: both; }
+  #profile article:nth-of-type(1) {
+    float: left;
+    width: 28%;
+    background-color: #58594d;
+    padding: 80px;
+    box-sizing: border-box; }
+    #profile article:nth-of-type(1) h1 {
+      font: bold 4vw/1 "arial";
+      color: #fff;
+      padding-bottom: 50px; }
+    #profile article:nth-of-type(1) p {
+      width: 100%;
+      font: 15px/1.4 "arial";
+      color: #aaa;
+      padding-bottom: 80px; }
+    #profile article:nth-of-type(1) .pic {
+      width: 220px;
+      height: 220px; }
+      #profile article:nth-of-type(1) .pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(1.1) saturate(30%); }
+  #profile article:nth-of-type(2) {
+    float: right;
+    width: 70%;
+    height: 100vh;
+    padding: 120px;
+    box-sizing: border-box;
+    overflow-Y: scroll; }
+    #profile article:nth-of-type(2) div {
+      margin-bottom: 80px; }
+      #profile article:nth-of-type(2) div h2 {
+        font: bold 24px/1 "arial";
+        color: #58594d;
+        border-bottom: 1px solid #666;
+        padding-bottom: 20px;
+        margin-bottom: 20px; }
+      #profile article:nth-of-type(2) div p {
+        font: 500 16px/1 "arial";
+        color: #6e6d5b;
+        padding: 5px 0px; }
+        #profile article:nth-of-type(2) div p strong {
+          margin-right: 16px;
+          color: #a5a273; }
+      #profile article:nth-of-type(2) div a {
+        width: 300px;
+        border: 1px solid #ccc;
+        display: block;
+        font: bold 15px/1 "arial";
+        color: #58594d;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-bottom: 10px; }
+        #profile article:nth-of-type(2) div a:hover {
+          background: #58594d;
+          color: #eee; }
+      #profile article:nth-of-type(2) div .project1 {
+        width: 100%;
+        height: 200px;
+        background-color: #eee;
+        margin-bottom: 20px; }
+        #profile article:nth-of-type(2) div .project1 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+
+@media screen and (max-width: 1179px) {
+  #profile article:nth-of-type(1) h1 {
+    font: bold 3vw/1 "arial";
+    color: #fff;
+    padding-bottom: 50px; }
+  #profile article:nth-of-type(1) .pic {
+    width: 90%;
+    height: 100%; } }
+@media screen and (max-width: 900px) {
+  #profile {
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto; }
+    #profile article:nth-of-type(1) {
+      float: none;
+      width: 100%;
+      padding: 80px; }
+      #profile article:nth-of-type(1) h1 {
+        font: bold 40px/1 "arial"; }
+      #profile article:nth-of-type(1) .pic {
+        width: 200px;
+        height: 200px; }
+    #profile article:nth-of-type(2) {
+      float: none;
+      width: 100%;
+      height: auto;
+      padding: 80px;
+      overflow-Y: visible; } }
+@media screen and (max-width: 539px) {
+  #profile article:nth-of-type(1) {
+    padding: 40px; }
+    #profile article:nth-of-type(1) h1 {
+      font: bold 28px/1 "arial";
+      padding-bottom: 30px; }
+    #profile article:nth-of-type(1) p {
+      font: 12px/1.4 "arial";
+      padding-bottom: 60px; }
+    #profile article:nth-of-type(1) .pic {
+      width: 140px;
+      height: 140px; }
+  #profile article:nth-of-type(2) {
+    padding: 40px; }
+    #profile article:nth-of-type(2) div {
+      margin-bottom: 40px; }
+      #profile article:nth-of-type(2) div h2 {
+        font: bold 20px/1 "arial";
+        padding-bottom: 14px;
+        margin-bottom: 14px; }
+      #profile article:nth-of-type(2) div p {
+        font: 500 13px/1 "arial";
+        color: #6e6d5b; }
+        #profile article:nth-of-type(2) div p strong {
+          margin-right: 12px; }
+      #profile article:nth-of-type(2) div a {
+        width: 100%;
+        padding: 14px;
+        font: bold 14px/1 "arial"; } }
+
+/*# sourceMappingURL=style.css.map */
