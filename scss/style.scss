@@ -37,10 +37,10 @@ a { text-decoration: none; }
                 height: 220px;
 
                 img {
-                    width: 100%;
+                    width: 75%;
                     height: 100%;
                     object-fit: cover;
-                    filter: brightness(1.1) saturate(30%);
+                    // filter: brightness(1.1) saturate(30%);
                 }
             }
         }
@@ -65,7 +65,7 @@ a { text-decoration: none; }
                 }
     
                 p {
-                    font: 500 16px/1 "arial";
+                    font: 500 16px/1.5 "arial";
                     color: #6e6d5b;
                     padding: 5px 0px;
 
